@@ -37,11 +37,10 @@ var dataSet = {
     source: substringMatcher(states)
 };
 
-$(document).ready(function () {
-  $('.typeahead').typeahead(options, dataSet);
-  $('button.remove').click(
+$('.typeahead').typeahead(options, dataSet);
+
+$('button.remove').click(
     function () {
-      $('.typeahead').typeahead('val', '').trigger('typeahead:idle');
+        $('.typeahead').typeahead('val', '').trigger('typeahead:idle');
     }
-  );
-});	
+);
