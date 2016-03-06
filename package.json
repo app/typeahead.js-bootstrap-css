@@ -18,7 +18,11 @@
   },
   "devDependencies": {
     "bootstrap": "~3.3",
-    "typeahead.js": "~0.11"
+    "typeahead.js": "~0.11",
+    "live-server": "^0.9.1"
+  },
+  "scripts": {
+    "start": "live-server"
   },
   "licenses": [
     {
